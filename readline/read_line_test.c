@@ -70,7 +70,7 @@ int			main()
 	    }
 	  else
 	    {
-	      fprintf(stderr, "Test #%u passed: \"%s\"\n", i, line);
+	      printf("Test #%u passed: \"%s\"\n", i, line);
 	    }
 	  free(line);
 	}
