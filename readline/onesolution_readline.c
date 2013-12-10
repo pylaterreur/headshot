@@ -28,7 +28,7 @@ char		*readline()
       }
     old_index = 0;
     buff_length = read(0, buff, sizeof(buff));
-    if (buff_length == -1)
+    if (buff_length == (size_t)-1)
       {
 	return (NULL);
       }
